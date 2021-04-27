@@ -1,0 +1,26 @@
+{
+    "name": "mischkez/laravel-views",
+    "description": "Scaffold views for your controllers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Milos Jankovic",
+            "email": "mischkez987@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Mischkez\\LaravelViews\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mischkez\\LaravelViews\\LaravelViewsServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
