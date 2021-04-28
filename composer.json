@@ -22,5 +22,7 @@
             ]
         }
     },
-    "require": {}
+    "require-dev": {
+        "orchestra/testbench": "^6.0"
+    }
 }
